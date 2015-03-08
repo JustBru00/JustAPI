@@ -1,6 +1,6 @@
 /**
-*This API is for usage with plugins by Justin Brubaker and for usage by non-commercial open source projects.
-*Contact Justin Brubaker @ justbru00@gmail.com for a usage consent for commerical projects.
+*This API is for usage with plugins by Justin Brubaker and for usage by open source projects.
+*Contact Justin Brubaker @ justbru00@gmail.com
 *
 *   
 *   Copyright (C) 2015  Justin Brubaker

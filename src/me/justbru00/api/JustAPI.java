@@ -22,8 +22,11 @@
 package me.justbru00.api;
 
 import java.util.ArrayList;
+
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.SkullMeta;
@@ -57,6 +60,11 @@ public class JustAPI {
 		im.setDisplayName(color(Displayname));
 		is.setItemMeta(im);		
 		return is;
+	}
+	
+	public Inventory createInv(String name, int slots) {
+		Inventory inv = Bukkit.createInventory(null, slots, name);
+		return inv;
 	}
 	
 	public String color(String uncolored) {

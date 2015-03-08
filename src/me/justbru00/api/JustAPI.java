@@ -51,7 +51,7 @@ public class JustAPI {
 		return is;		
 	}
 	
-	public ItemStack renameDisplayName(ItemStack toRename, String Displayname) {
+	public ItemStack renameItemStack(ItemStack toRename, String Displayname) {
 		ItemStack is = toRename;
 		ItemMeta im = is.getItemMeta();	
 		im.setDisplayName(color(Displayname));
